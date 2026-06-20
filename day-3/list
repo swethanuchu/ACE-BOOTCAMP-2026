@@ -1,0 +1,4 @@
+l1=[l for l in range(5,10) if l%2==0]
+print(l1)
+l2=list(range(6,10,2))
+print(l2)

@@ -1,0 +1,22 @@
+d = {}
+n = int(input("Enter number of items: "))
+for i in range(n):
+    key = input("Enter key: ")
+    value = input("Enter value: ")
+    d[key] = value
+print(d)
+print(d.get("age"))
+c=d.copy()
+print(c)
+print(d.keys())
+print(d.items())
+print(d.values())
+print(d.fromkeys("swetha"))
+d.pop("name")
+print(d)
+d.update({"Name":"swetha"})
+print(d)
+d.popitem()
+print(d)
+d.clear()
+print(d)
